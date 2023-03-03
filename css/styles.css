@@ -1,0 +1,133 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+body {
+    text-align: center;
+}
+
+.image {
+    width: 20%;
+    height: 10%;
+    border-radius: 10%;
+}
+
+#start {
+    color: rgba(255, 8, 8, 0.945);
+}
+
+
+.menu {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+span {
+    color: rgba(255, 8, 8, 0.945);
+}
+
+header {
+    background: #200122;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+header a {
+    color: darkgray;
+    text-decoration: none;
+    margin: 20px;
+}
+
+header a:hover {
+    color: rgba(255, 8, 8, 0.945);
+}
+
+h1 {
+    color: white;
+}
+
+#menu1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#menu1 a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+#menu1 a:hover {
+    color: rgba(255, 8, 8, 0.945);
+}
+
+/*#section1{
+    text-align: right;
+}
+
+#section1 h1{
+    margin-right: 20%;
+}
+
+#section1 img{
+    margin-right: 20%;
+}
+
+#section2{
+    text-align: left;
+}
+
+#section2 h1{
+    margin-left: 20%;
+}
+
+#section2 img{
+    margin-left: 16%;
+}*/
+
+.main {
+    background: #200122;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main p {
+    color: rgb(255, 255, 255);
+}
+
+ol {
+    color: rgb(255, 252, 252);
+}
+
+ul {
+    color: rgb(255, 255, 255);
+}
+
+/*#float1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}*/
+
+.back {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.back a:hover {
+    color: aqua;
+}
+
+
+footer {
+    background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    color: rgba(255, 8, 8, 0.945);
+}
