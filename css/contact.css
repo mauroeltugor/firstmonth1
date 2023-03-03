@@ -1,0 +1,120 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+}
+
+body {
+  text-align: center;
+}
+
+.menu {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+span {
+  color: rgba(255, 8, 8, 0.945);
+}
+
+header {
+  background-color: black;
+}
+
+header h1 {
+  color: rgba(255, 8, 8, 0.945);
+}
+
+header a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 20px;
+}
+
+header a:hover {
+  color: rgba(255, 8, 8, 0.945);
+}
+
+#menu1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#menu1 a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+}
+
+#menu1 a:hover {
+  color: rgba(255, 8, 8, 0.945);
+}
+
+.main {
+  background-color: rgb(0, 0, 0);
+}
+
+.main p {
+  color: rgb(255, 255, 255);
+}
+
+#form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: rgba(255, 8, 8, 0.945);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+h3 {
+  color: rgba(255, 255, 255, 0.945);
+}
+
+.option {
+  color: rgba(255, 255, 255, 0.945);
+}
+
+input[type="text"][list] {
+  width: 100%;
+}
+
+#checkboxs {
+  margin-bottom: 20px;
+}
+
+#checkboxs h3 {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: black;
+  color: rgba(255, 8, 8, 0.945);
+}
