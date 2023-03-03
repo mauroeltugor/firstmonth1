@@ -17,7 +17,10 @@ span {
 }
 
 header {
-  background-color: black;
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 header h1 {
@@ -50,11 +53,18 @@ header a:hover {
 }
 
 .main {
-  background-color: rgb(0, 0, 0);
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 .main p {
   color: rgb(255, 255, 255);
+}
+
+.question{
+  color: rgba(255, 8, 8, 0.945);
 }
 
 #form {
@@ -115,6 +125,9 @@ input[type="text"][list] {
 }
 
 footer {
-  background-color: black;
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   color: rgba(255, 8, 8, 0.945);
 }
